@@ -1,8 +1,53 @@
+html {
+    background-color: whitesmoke;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.banner {
+    background-color: #4dbf4f;
+    padding: 15px;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+
 img {
     height: 300px;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    display:flex;
+    background-color: darkgrey;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+section {
+    margin: 5px;
+}
+
 h1 {
     text-align: center;
+}
+
+p {
+    display: flex;
 }
 
