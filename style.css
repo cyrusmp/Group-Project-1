@@ -51,3 +51,13 @@ p {
     display: flex;
 }
 
+section a:active {
+    border: rgb(65, 166, 200) dashed 3px;
+}
+
+button:active {
+    border: white solid 3px;
+}
+
+
+
