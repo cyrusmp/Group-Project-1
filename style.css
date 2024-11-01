@@ -51,12 +51,18 @@ p {
     display: flex;
 }
 
+a:hover, a:focus, a:visited {
+    color:darkorchid;
+    text-decoration: none;
+}
+
 section a:active {
-    border: rgb(65, 166, 200) dashed 3px;
+    border: rgb(65, 166, 200) solid 3px;
+    text-decoration: darkorchid;
 }
 
 button:active {
-    border: white solid 3px;
+    border: lightblue solid 3px;
 }
 
 
