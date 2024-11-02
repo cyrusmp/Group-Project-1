@@ -1,5 +1,15 @@
+@font-face {
+    font-family: Headfonts;
+    src: url(Resources/AfacadFlux-Regular.ttf)
+}
+
+@font-face {
+    font-family: Bodyfonts;
+    src:url(Resources/SourceSerif4_18pt-Regular.ttf)
+}
+
 html {
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
 
 body {
@@ -27,6 +37,7 @@ body {
 
 button {
     font-size: 1.2em;
+    font-family: Headfonts;
 }
 
 section, footer {
@@ -35,10 +46,26 @@ section, footer {
 
 h1 {
     text-align: center;
+    font-family: Headfonts;
+    text-decoration: underline;
 }
+
+h2 {
+    font-family: Headfonts;
+}
+
 
 .fact {
     display:flex;
+    flex-direction: column;
+    border: solid; 
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+p {
+    padding: 10px;
+    font-family: Bodyfonts;
 }
 
 a {
@@ -54,13 +81,17 @@ a:visited {
 }
 
 section a:active {
-    border: rgb(65, 166, 200) solid 3px;
+    border: lightblue solid 3px;
     text-decoration: darkorchid;
 }
 
 button:active {
     border: lightblue solid 3px;
     background-color: white;
+}
+
+.fact img {
+    align-self: center;
 }
 
 
