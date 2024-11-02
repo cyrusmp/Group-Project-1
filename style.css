@@ -31,8 +31,19 @@ body {
     position: sticky;
     top: 0;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
+}
+
+.pages {
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+form {
+    display:flex;
 }
 
 button {
