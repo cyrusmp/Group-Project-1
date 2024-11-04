@@ -120,12 +120,24 @@ button:active {
 
 .fact img {
     align-self: center;
+    width:50%;
+}
+
+.imgwithtext p::before {
+    content: none;
 }
 
 .imgwithtext {
-    text-align: justify;
-    content: none;
-    align-self: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgwithtext img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 ul {
