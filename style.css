@@ -98,6 +98,10 @@ p::first-line {
     font-size: 0.9rem;
 }
 
+li:nth-child(even) {
+    background-color: beige;
+}
+
 a {
     text-decoration: none;
 }
@@ -191,6 +195,3 @@ footer {
     }
 
 }
-
-
-
