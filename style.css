@@ -39,11 +39,17 @@ body {
     flex-grow: 1;
     display:flex;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 form {
-    display:flex;
+    padding: 10px;
+    margin-top: 10px;;
+}
+
+input:focus {
+    background-color: lightgrey;
+    font-size: 1em;
 }
 
 button {
@@ -79,6 +85,10 @@ p {
     font-family: Bodyfonts;
 }
 
+p::before {
+    content: '🎯'
+}
+
 a {
     text-decoration: none;
 }
@@ -90,7 +100,9 @@ a:hover {
 a:visited {
     color:darkorchid;
 }
-
+a:link {
+    color: green;
+}
 section a:active {
     border: lightblue solid 3px;
     text-decoration: darkorchid;
