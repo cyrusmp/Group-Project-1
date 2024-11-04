@@ -89,6 +89,11 @@ p::before {
     content: '🎯 '
 }
 
+p::first-line {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -119,6 +124,10 @@ button:active {
 
 ul {
     font-family: Bodyfonts;
+}
+
+footer {
+    margin-top: 150px;
 }
 
 
