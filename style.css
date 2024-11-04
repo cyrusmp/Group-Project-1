@@ -147,5 +147,50 @@ footer {
     margin-top: 150px;
 }
 
+@media (max-width: 414px) {
+    .banner {
+        height: 100px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pages {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pages ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .fact img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 1em;
+    }
+
+}
+
 
 
