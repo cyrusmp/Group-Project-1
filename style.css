@@ -1,11 +1,11 @@
 @font-face {
     font-family: Headfonts;
-    src: url(Resources/AfacadFlux-Regular.ttf)
+    src: url(Resources/Fonts/AfacadFlux-Regular.ttf)
 }
 
 @font-face {
     font-family: Bodyfonts;
-    src:url(Resources/SourceSerif4_18pt-Regular.ttf)
+    src:url(Resources/Fonts/SourceSerif4_18pt-Regular.ttf)
 }
 
 html {
@@ -119,6 +119,12 @@ button:active {
 }
 
 .fact img {
+    align-self: center;
+}
+
+.imgwithtext {
+    text-align: justify;
+    content: none;
     align-self: center;
 }
 
