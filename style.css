@@ -29,7 +29,7 @@ h2 {
 
 .banner {
     width: 100%;
-    background-image: url(Resources/—Pngtree—vector\ of\ saving\ the\ planet_3740986.png);
+    background-image: url(Resources/Images/—Pngtree—vector\ of\ saving\ the\ planet_3740986.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -149,9 +149,10 @@ ul {
 
 footer {
     margin-top: 150px;
+    align-content: center;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
     .banner {
         height: 100px;
     }
